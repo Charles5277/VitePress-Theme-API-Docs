@@ -1,0 +1,18 @@
+{
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": false
+    }
+  },
+  "cSpell.words": [
+    "adipiscing",
+    "amet",
+    "consectetur",
+    "elit",
+    "frontmatter",
+    "vitepress"
+  ]
+}
