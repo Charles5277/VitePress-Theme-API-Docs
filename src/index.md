@@ -14,7 +14,7 @@ aside: right
 
   <template #left>
 
-  ## Endpoint
+  ## Base URL
   </template>
 
 <template #right>

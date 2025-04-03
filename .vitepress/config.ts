@@ -1,5 +1,13 @@
-import { defineConfig } from 'vitepress';
+import { defineConfig, type DefaultTheme } from 'vitepress';
 import path from 'path';
+
+const nav: DefaultTheme.Config['nav'] = [
+  { text: 'sample', link: '/sample' },
+  { text: '說明', link: '/' },
+  {
+    component: 'ToggleBaseURL',
+  },
+];
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -7,10 +15,7 @@ export default defineConfig({
   description: 'Description',
   srcDir: 'src',
   themeConfig: {
-    nav: [
-      { text: 'sample', link: '/sample' },
-      { text: '說明', link: '/' },
-    ],
+    nav,
     // sidebar: [
     //   {
     //     text: '介紹',
